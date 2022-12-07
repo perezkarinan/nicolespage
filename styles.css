@@ -1,5 +1,14 @@
 h1 {
+  margin-top: 80px;
   color: rgb(224, 144, 171);
+}
+
+h2 {
+  text-align: center;
+}
+p {
+  display: block;
+  text-align: center;
 }
 
 .banner {
