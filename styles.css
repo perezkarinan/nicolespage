@@ -19,8 +19,27 @@ p {
   max-width: 500px;
 }
 
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
 .container {
-  max-width: 500px;
+  max-width: 800px;
 }
 
 .banner {
