@@ -38,6 +38,10 @@ nav a {
   text-decoration: none;
 }
 
+footer {
+  padding: 80px;
+}
+
 .container {
   max-width: 800px;
 }
