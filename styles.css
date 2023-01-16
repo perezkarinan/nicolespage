@@ -21,7 +21,27 @@ p {
 }
 
 footer {
+  margin-top: 50px;
   padding: 80px;
+  background-color: rgba(11, 11, 11, 0.972);
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: pink;
+}
+
+.social-icons {
+  color: pink;
+  margin-left: 30px;
 }
 
 .banner {
