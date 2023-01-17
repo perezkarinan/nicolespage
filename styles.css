@@ -74,6 +74,20 @@ footer a:hover {
   text-align: left;
 }
 
+.offers {
+  text-align: center;
+  list-style: none;
+}
+
+.servicebtn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
 .banner {
   position: relative;
   height: 250px;
