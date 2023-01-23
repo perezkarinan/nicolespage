@@ -50,6 +50,22 @@
       </div>
     </nav>
     <h1>Contact me</h1>
+
+    <div class="container">
+      <form onsubmit="sendEmail()">
+        <h3>GET IN TOUCH</h3>
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="text" id="phone" placeholder="Phone No." required />
+        <textarea
+          id="message"
+          rows="4"
+          placeholder="How can I help you?"
+        ></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
     <footer>
       <nav class="text-center">
         <ul>
@@ -71,5 +87,20 @@
         <i class="fa-solid fa-envelope"></i>
       </div>
     </footer>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail() {
+        Email.send({
+          Host: "smtp.elasticemail.com",
+          Username: "perezkarinan@gmail.com",
+          Password: "noemy01.",
+          To: "perezkarinan@gmail.com",
+          From: document.getElementById("email").value,
+          Subject: "New Contact Form Inquiry",
+          Body: "And this is the body",
+        }).then((message) => alert(message));
+      }
+    </script>
   </body>
 </html>
