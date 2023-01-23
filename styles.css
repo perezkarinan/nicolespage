@@ -1,3 +1,9 @@
+:root {
+  --main-font: "Manrope", sans-serif;
+  --heading-font: "Petit Formal Script", cursive;
+  --secondary-font: "Unica One", cursive;
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -8,6 +14,7 @@ h1 {
   text-align: center;
   margin-top: 80px;
   color: rgb(224, 144, 171);
+  font-family: var(--heading-font);
 }
 
 h2 {
@@ -21,18 +28,21 @@ h5 {
   color: pink;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
+  font-family: var(--secondary-font);
 }
 p {
   display: block;
   margin: 0 auto;
   text-align: left;
   max-width: 500px;
+  font-family: var(--main-font);
 }
 
 button {
   background-color: pink;
   border-style: none;
   color: white;
+  font-family: var(--secondary-font);
 }
 
 footer {
@@ -48,6 +58,7 @@ footer li {
 footer a {
   text-decoration: none;
   color: white;
+  font-family: var(--secondary-font);
 }
 
 footer a:hover {
@@ -88,6 +99,10 @@ button {
   border-radius: 30px;
 }
 
+small {
+  opacity: 50%;
+}
+
 .home-cards {
   display: flex;
   align-items: center;
@@ -106,11 +121,6 @@ button {
 
 .clearfix {
   text-align: left;
-}
-
-.offers {
-  text-align: center;
-  list-style: none;
 }
 
 .servicebtn {
@@ -138,6 +148,7 @@ button {
   background-color: pink;
   width: 100%;
   border-radius: 10px;
+  font-family: var(--main-font);
 }
 
 .logo {
@@ -153,4 +164,22 @@ button {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
+}
+
+.service-page {
+  background: pink;
+  padding: 10px;
+}
+.service-page ul {
+  display: block;
+  margin: 0 auto;
+  list-style: circle;
+  background: white;
+  max-width: 300px;
+  border-radius: 10px;
+  font-family: var(--main-font);
+}
+
+.nav-link {
+  font-family: var(--secondary-font);
 }
