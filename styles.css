@@ -1,6 +1,6 @@
 :root {
   --main-font: "Manrope", sans-serif;
-  --heading-font: "Petit Formal Script", cursive;
+  --heading-font: "Style Script", cursive;
   --secondary-font: "Unica One", cursive;
 }
 
@@ -12,9 +12,11 @@ body {
 
 h1 {
   text-align: center;
-  margin-top: 80px;
-  color: rgb(224, 144, 171);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: pink;
   font-family: var(--heading-font);
+  font-size: 50px;
 }
 
 h2 {
@@ -55,7 +57,7 @@ footer li {
   list-style: none;
 }
 
-footer a {
+footer ul a {
   text-decoration: none;
   color: white;
   font-family: var(--secondary-font);
@@ -110,9 +112,13 @@ small {
   margin-top: 20px;
 }
 
-.social-icons {
+.social-icons a {
   color: pink;
   margin-left: 20px;
+}
+
+.social-icons a:hover {
+  color: white;
 }
 
 .thumbnails {
@@ -145,7 +151,6 @@ small {
   margin: 0 auto;
   padding: 10px;
   margin-bottom: 80px;
-  background-color: pink;
   width: 100%;
   border-radius: 10px;
   font-family: var(--main-font);
@@ -182,4 +187,8 @@ small {
 
 .nav-link {
   font-family: var(--secondary-font);
+}
+.service-list {
+  list-style: circle;
+  font-family: var(--main-font);
 }
