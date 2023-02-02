@@ -19,13 +19,11 @@ h1 {
   font-size: 50px;
 }
 
-h2 {
-  text-align: center;
-}
-
+h2,
 h3 {
   text-align: center;
 }
+
 h5 {
   color: pink;
   text-transform: uppercase;
@@ -188,7 +186,43 @@ small {
 .nav-link {
   font-family: var(--secondary-font);
 }
+
+.nav-link:hover {
+  color: pink;
+}
+
 .service-list {
   list-style: circle;
   font-family: var(--main-font);
+}
+
+.nav-icons {
+  display: inline-block;
+  position: relative;
+  margin-left: 50px;
+  padding: 20px 20px;
+}
+
+.navbar-nav {
+  margin-left: 600px;
+}
+
+.nav-icons a {
+  color: black;
+}
+
+.nav-icons a:hover {
+  color: pink;
+}
+
+@media (max-width: 390px) {
+  .nav-icons {
+    display: none;
+  }
+
+  .navbar-nav {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
