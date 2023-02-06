@@ -4,7 +4,7 @@
   --secondary-font: "Unica One", cursive;
 }
 
-body {
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -86,6 +86,9 @@ form textarea {
   font-size: 16px;
 }
 
+small {
+  opacity: 50%;
+}
 button {
   padding: 15px;
   background: pink;
@@ -98,11 +101,6 @@ button {
   margin: 20px auto 0;
   border-radius: 30px;
 }
-
-small {
-  opacity: 50%;
-}
-
 .home-cards {
   display: flex;
   align-items: center;
@@ -171,7 +169,7 @@ small {
 
 .service-page {
   background: pink;
-  padding: 10px;
+  padding-bottom: 10px;
 }
 .service-page ul {
   display: block;
@@ -199,8 +197,7 @@ small {
 .nav-icons {
   display: inline-block;
   position: relative;
-  margin-left: 50px;
-  padding: 20px 20px;
+  padding: 10px;
 }
 
 .navbar-nav {
